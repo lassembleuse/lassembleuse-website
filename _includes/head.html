@@ -7,10 +7,14 @@
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | relative_url }}">
+  
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <script defer src="{{ "assets/js/index.js"| | absolute_url }}"></script>
 
   {% if jekyll.environment == 'production' and site.matomo_analytics %}
-  {% include matomo-analytics.html %}
+    {% include matomo-analytics.html %}
   {% endif %}
 </head>
