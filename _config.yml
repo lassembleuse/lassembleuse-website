@@ -1,9 +1,10 @@
 # Site settings -----------------------------------
-title: Starter
-email: clairezuliani@gmail.com
-description: My own jekyll starter
-baseurl: "/jekyll-starter" # the subpath of your site, e.g. /blog
-url: "https://clairezed.github.io" # the base hostname & protocol for your site
+title: L'assembleuse
+subtitle: Outiller la transition
+email: bonjour@lassembleuse.fr
+description: L'assembleuse, l'agence d'accompagnement numérique et coopératif des projets de la transition
+url: "https://lassembleuse.netlify.com" # the base hostname & protocol for your site
+# url: "https://www.lassembleuse.fr" # the base hostname & protocol for your site
 
 # Social settings ------------------------------------
 github_username: clairezed
