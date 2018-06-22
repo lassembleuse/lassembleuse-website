@@ -4,10 +4,10 @@ title: Accueil
 permalink: /
 ---
 
-<section class="hero is-medium is-primary is-bold">
+<section class="hero is-fullheight is-primary is-bold">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title brand-title">
+      <h1 class="title brand-title is-huge">
         L'assembleuse
       </h1>
       <h2 class="subtitle">
@@ -18,47 +18,72 @@ permalink: /
   </div>
 </section>
 
-<section class="section is-medium">
-    <div class="container">
-      <h2 class="title">
-        En savoir plus
-      </h2>
-      <p class="content">Vous voulez être tenu au courant du lancement de l'assembleuse et de ses dernières actualités ? <br> Laissez nous votre email, et nous reprendrons contact, d'une façon ou d'une autre.</p>
-      <div class="content">
-        <form name="know-more" method="POST" netlify-honeypot="bot-field" netlify>
-          <p class="is-hidden">
-            <label>Name <input name="bot-field" /></label>
-          </p>
-          <div class="field">
-            <label class="label">Email</label>
-            <div class="control">
-              <input class="input" type="text" name="email" placeholder="Text input">
-            </div>
-          </div>
-          <p>
-              <label>Your Role: <select name="role[]" multiple>
-                <option value="leader">Leader</option>
-                <option value="follower">Follower</option>
-              </select></label>
-            </p>
-          
-          <div class="field">
-            <div class="control">
-              <label class="checkbox">
-                <input type="checkbox">
-                Mes données ne seront utilisées QUE par l'Assembleuse pour garder contact, et je suis d'accord avec ça.
-              </label>
-            </div>
-          </div>
-          <p class="content is-italic">Nous faisons le serment de ne jamais communiquer vos données à qui que ce soit. Jamais.</p>
-          <p>
-            <button class="button" type=”submit”>Envoyer</button>
-          </p>
-        </form>
-      </div>
-
+<div class="container is-vertical-p9">
+  <div class="columns">
+    <div class="column is-half">
+      <section class="section">
+      <p>L'assembleuse n'en est qu'à ses débuts. Très bientôt, vous trouverez ici plus d'infos sur les activités de l'assembleuse.</p>
+      <br><p>D'ailleurs, on compte aussi vous faire participer à la définition de nos activités ! </p>
+      <br><p>Restez à l'écoute !</p>
+  
+    </section>
     </div>
-</section>
+    <div class="column is-half">
+      <section class="section has-background-white-ter">
+        <div class="">
+            <h2 class="title">
+                En savoir plus
+              </h2>
+              <p class="content">
+                Vous souhaitez prendre ou garder contact avec l'assembleuse ? Laissez-nous votre email et on reviendra vers vous !
+              </p>
+              
+              <div class="content">
+                <form name="know-more" method="POST" netlify-honeypot="bot-field" netlify>
+          
+                  <p class="is-hidden">
+                    <label>Name <input name="bot-field" /></label>
+                  </p>
+            
+                  <div class="field">
+                    <label class="label">Email</label>
+                    <div class="control">
+                      <input class="input" type="text" name="email" placeholder="Text input">
+                    </div>
+                  </div>
+          
+                  <div class="field">
+                    <label class="label">Pourquoi prendre contact ?</label>
+                    <div class="control">
+                      <div class="select">
+                        <select>
+                          <option>Je veux être tenu.e informé.e de votre actualité</option>
+                          <option>J'aimerais en savoir plus sur l'assembleuse</option>
+                          <option>J'ai une mission pour l'assembleuse</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="field">
+                    <div class="control">
+                      <label class="checkbox">
+                        <input type="checkbox">
+                        J'accepte que mes données soient utilisées par l'assembleuse, pour garder contact. Et uniquement pour ça.
+                      </label>
+                    </div>
+                  </div>
+                  <button class="button" type=”submit”>Envoyer</button>
+                </form>
+              </div>
+        </div>
+        
+      </section>
+    </div>
+  </div>
+</div>
+
+
+
 
 <footer class="footer">
     <div class="container">
@@ -70,7 +95,11 @@ permalink: /
             </li>
             {% if site.email %}
             <li>
-              <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+              <a href="mailto:{{ site.email }}">
+                  <span class="icon is-medium">
+                      <i class="far fa-envelope fa-lg"></i>
+                    </span>
+              {{ site.email }}</a>
             </li>
             {% endif %}
           </ul>
