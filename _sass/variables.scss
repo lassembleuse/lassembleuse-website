@@ -5,19 +5,15 @@ $blue: #086788;
 $orange-deep: #ef451a;
 $orange-deep-invert: #fff;
 // Add a serif family
-$family-serif: "Merriweather", "Georgia", serif;
+$family-sans-serif-bis: "Montserrat", sans-serif !default;
+$family-brand: "Exceptional-Regular", "Fregat", sans-serif;
 
-$family-brand: "Exceptional-Regular", sans-serif;
-
+$family-primary: $family-sans-serif-bis;
 
 // 3. Set the derived variables
 // Use the new pink as the primary color
 $primary: $orange-deep;
 $primary-invert: $orange-deep-invert;
-// Use the existing orange as the danger color
-$danger: $orange;
-// Use the new serif family
-// $family-primary: $family-serif;
 
 // 4. Setup your Custom Colors
 $linkedin: #0077b5;
