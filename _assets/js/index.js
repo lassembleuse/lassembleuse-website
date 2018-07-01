@@ -1,6 +1,11 @@
+//=require vendor/vue
+//=require assembleuse/baseline
+
 document.addEventListener('DOMContentLoaded', function () {
 
   console.log("hello sweetie !");
+
+  // NAVBAR ==========================================================
   // Get all "navbar-burger" elements
   var $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
 
