@@ -12,7 +12,6 @@ github_username: lassembleuse
 
 # Build settings --------------------------------------
 markdown: kramdown
-# theme: minima
 plugins:
   - jekyll-feed
 exclude:

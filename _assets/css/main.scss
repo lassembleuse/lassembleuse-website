@@ -29,26 +29,26 @@ License: 	The WebFont(s) listed in this document must follow the YouWorkForThem
 
 @font-face {
   font-family: 'Exceptional-Regular';
-	src: url('../font/exceptional-regular.eot');
-	src: url('../font/exceptional-regular.eot?#iefix') format('embedded-opentype'),
-             url('../font/exceptional-regular.woff2') format('woff2'),
-	     url('../font/exceptional-regular.woff') format('woff'),
-	     url('../font/exceptional-regular.ttf') format('truetype'),
-	     url('../font/exceptional-regular.svg#youworkforthem') format('svg');
+	src: url(asset_path('exceptional-regular.eot'));
+	src: url(asset_path('exceptional-regular.eot?#iefix')) format('embedded-opentype'),
+       url(asset_path('exceptional-regular.woff2')) format('woff2'),
+	     url(asset_path('exceptional-regular.woff')) format('woff'),
+	     url(asset_path('exceptional-regular.ttf')) format('truetype'),
+	     url(asset_path('exceptional-regular.svg#youworkforthem')) format('svg');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face{
 	font-family: 'Montserrat';
-	src: url('../font/Montserrat-Bold.otf');
+	src: url(asset_path("Montserrat-Bold.ttf"));
 	font-weight: 600;
 	font-style: bold;
 }
 
 @font-face{
 	font-family: 'Montserrat';
-	src: url('../font/Montserrat-Regular.otf');
+	src: url(asset_path('Montserrat-Regular.ttf'));
 	font-weight: 400;
 	font-style: normal;
 }
