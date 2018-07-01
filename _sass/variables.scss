@@ -3,7 +3,7 @@
 $blue: #086788;
 // Add pink and its invert
 $orange-deep: #ef451a;
-$orange-deep-invert: #fff;
+$orange-deep-invert: findColorInvert($orange-deep);
 // Add a serif family
 $family-sans-serif-bis: "Montserrat", sans-serif !default;
 $family-brand: "Exceptional-Regular", "Fregat", sans-serif;
@@ -22,12 +22,16 @@ $twitter: #55acee;
 $twitter-invert: findColorInvert($twitter);
 $github: #333;
 $github-invert: findColorInvert($github);
+$secondary: #07a0c3;
+$secondary-invert: #fff;
+// $secondary-invert: findColorInvert($secondary);
 
 // 5. Add new color variables to the color map.
 @import "bulma/utilities/derived-variables";
 $addColors: (
   "twitter":($twitter, $twitter-invert),
   "linkedin": ($linkedin, $linkedin-invert),
-  "github": ($github, $github-invert)
+  "github": ($github, $github-invert),
+  "secondary": ($secondary, $secondary-invert)
 );
 $colors: map-merge($colors, $addColors);

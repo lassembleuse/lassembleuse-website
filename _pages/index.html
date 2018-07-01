@@ -4,16 +4,34 @@ title: Accueil
 permalink: /
 ---
 
-<section class="hero is-fullheight is-primary is-bold">
+<section class="hero is-fullheight is-bold">
   <div class="hero-body">
     <div class="container">
-      <h1 class="title brand-title is-huge">
-        L'assembleuse
-      </h1>
-      <h2 class="subtitle">
-          L'agence qui outille humainement et numériquement les initiatives de la transition.
-      </h2> 
-      <!-- <a href="#contact" class="button is-info">Alors discutons !</a> -->
+      <div class="columns">
+        <div class="column is-two-thirds">
+          <h1 class="title brand-title is-huge has-text-primary">
+            L'assembleuse
+          </h1>
+          <h2 class="subtitle">
+              Une <a href="#agence">agence</a> qui <a href="#outille">outille</a> <a href="#humainement">humainement</a> et <a href="#numeriquement">numériquement</a> les initiatives de la <a href="#transition">transition</a>.
+          </h2> 
+          <!-- <a href="#contact" class="button is-info">Alors discutons !</a> -->
+        </div>
+        <div id="{{ item.id }}" class="column">
+            {% for item in site.data.baseline %}
+            <div class="card keyword-card has-background-secondary has-text-light">
+              <header class="card-header">
+                  <p class="card-header-title has-text-light">{{ item.title }}</p>
+                </header>
+                <div class="card-content">
+                  <div class="content">
+                      {{ item.description }}
+                  </div>
+                </div>
+            </div>
+            {% endfor %}
+          </div>
+      </div>
     </div>
   </div>
 </section>
