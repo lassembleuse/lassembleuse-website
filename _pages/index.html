@@ -4,43 +4,70 @@ title: Accueil
 permalink: /
 ---
 
-<section id="app" class="hero is-fullheight is-bold">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns">
-        <div class="column is-two-thirds">
-          <h1 class="title brand-title is-huge has-text-primary">
-            L'assembleuse
-          </h1>
-          <h2 class="subtitle">
-              Une <a href="#agence" @click="current = 'agence'">agence</a>
-              qui <a href="#outil" @click="current = 'outil'">outille</a>
-              <a href="#humainement" @click="current = 'humainement'">humainement</a> et
-              <a href="#numeriquement" @click="current = 'numeriquement'">numériquement</a> les initiatives de la
-              <a href="#transition" @click="current = 'transition'">transition</a>.
-          </h2> 
-          <!-- <a href="#contact" class="button is-info">Alors discutons !</a> -->
-        </div>
-        <div id="{{ item.id }}" class="column">
-            {% for item in site.data.baseline %}
-            <div class="card keyword-card has-background-secondary has-text-light" :class="{ 'is-hidden': current != '{{ item.id }}' }">
-              <header class="card-header">
-                  <p class="card-header-title has-text-light">{{ item.title }}</p>
-                  <a href="#" class="card-header-icon" aria-label="close" @click="current = undefined">
-                    <span class="icon">
-                      <i class="fas fa-times" aria-hidden="true"></i>
-                    </span>
-                  </a> 
-                </header>
-                <div class="card-content">
-                  <div class="content">
-                      {{ item.description }}
-                  </div>
-                </div>
+<section id="app" class="is-index-page">
+  <div class="container">
+    <div class="columns">
+      <div class="column is-two-thirds">
+        <div class="hero is-fullheight is-bold">
+          <div class="hero-body">
+            <div class="column-inner">
+              <h1 class="title brand-title is-huge has-text-primary">
+                L'assembleuse
+              </h1>
+              <h2 class="subtitle">
+                  Une <a href="#agence" @click="current = 'agence'" :class="{ 'is-active': current == 'agence'}"> agence</a>
+                   qui <a href="#outil" @click="current = 'outil'":class="{ 'is-active': current == 'outil'}"> outille</a>
+                  <a href="#humainement" @click="current = 'humainement'":class="{ 'is-active': current == 'humainement'}">humainement</a> et
+                  <a href="#numeriquement" @click="current = 'numeriquement'":class="{ 'is-active': current == 'numeriquement'}">numériquement</a> les initiatives de la
+                  <a href="#transition" @click="current = 'transition'":class="{ 'is-active': current == 'transition'}">transition</a>.
+              </h2> 
             </div>
-            {% endfor %}
           </div>
+        </div>
       </div>
+      <div class="column">
+        <div class="hero is-fullheight is-bold">
+          <div class="hero-body">
+          {% for item in site.data.baseline %}
+          <div class="card keyword-card has-background-secondary has-text-light" :class="{ 'is-hidden': current != '{{ item.id }}' }">
+            <header class="card-header">
+                <p class="card-header-title has-text-light">{{ item.title }}</p>
+                <a href="#" class="card-header-icon has-text-light" title="fermer" aria-label="close" @click="current = undefined">
+                  <span class="icon">
+                    <i class="fas fa-times" aria-hidden="true"></i>
+                  </span>
+                </a> 
+              </header>
+              <div class="card-content">
+                <div class="content">
+                    {{ item.description }}
+                </div>
+              </div>
+              <footer class="card-footer">
+                {% if item.previous %}
+                  <a href="#previous" class="card-footer-item has-text-light" title="Mot précédent" aria-label="previous" @click="current = '{{ item.previous }}'">
+                    <span class="icon">
+                      <i class="fas fa-chevron-left" aria-hidden="true"></i>
+                    </span>Précédent
+                  </a>
+                {% else %}
+                  <div class="card-footer-item"></div>
+                {% endif %}
+                {% if item.next %}
+                  <a href="#next" class="card-footer-item has-text-light" title="Mot suivant" aria-label="next" @click="current = '{{ item.next }}'">
+                      Suivant<span class="icon">
+                      <i class="fas fa-chevron-right" aria-hidden="true"></i>
+                    </span>
+                  </a>
+                {% else %}
+                  <div class="card-footer-item"></div>
+                {% endif %}
+              </footer>
+          </div>
+          {% endfor %}
+      </div>
+    </div>
+    </div>
     </div>
   </div>
 </section>

@@ -1,26 +1,41 @@
 - title: agence
   id: agence
-  description : "<p>l'assembleuse est un collectif protéiforme de professionnels du 
-  numérique sensibilisés à des approches design, de recherche, sociologique.</p>
+  description : "<p>L'assembleuse est un collectif protéiforme de professionnels du numérique 
+  dont les approches sont nourries de design, de recherche, de sociologie...</p>
   <p>Bref, on sait parler aux ordinateurs, mais on s'intéresse surtout aux humains.</p>"
+  next: outil
 
 - title: outiller
   id: outil
-  description : "<p>l'assembleuse est un collectif protéiforme de professionnels du numérique sensibilisés à des approches design, de recherche, sociologique.</p>
-  <p>Bref, on sait parler aux ordinateurs, mais on s'intéresse surtout aux humains.</p>"
+  description : "<p>L'assembleuse ne fait pas tant des sites internets qu'elle ne créé 
+  des outils et des services web. 
+  Nos réalisations s'adressent à des vrais gens et les aident à résoudrent un problème.</p>
+  <p>Notre crédo, c'est de rendre celles et ceux qui utilisent nos services plus autonomes, en somme.</p>"
+  previous: agence
+  next: humainement
 
 - title: humainement
   id: humainement
-  description : "<p>l'assembleuse est un collectif protéiforme de professionnels du numérique sensibilisés à des approches design, de recherche, sociologique.</p>
-  <p>Bref, on sait parler aux ordinateurs, mais on s'intéresse surtout aux humains.</p>"
+  description : "<p>Parfois (souvent), le problème n'est pas technique, ou pas que.
+  Avant toute chose, nous vous aidons à identifier des besoins, nous facilitons la réflexion 
+  de votre organisation, nous établissons avec vous un diagnostic.</p>
+  <p>Ensuite, nous vous proposons des pistes de solution, et celles-ci ne seront pas forcément numériques.</p>"
+  previous: outil
+  next: numeriquement
 
 - title: numériquement
   id: numeriquement
-  description : "<p>l'assembleuse est un collectif protéiforme de professionnels du numérique sensibilisés à des approches design, de recherche, sociologique.</p>
-  <p>Bref, on sait parler aux ordinateurs, mais on s'intéresse surtout aux humains.</p>"
+  description : "<p>L'assembleuse prototype des idées émergentes, conseille des solutions ouvertes 
+  qui couvrent vos besoins, réalise des sites web décroissants, 
+  créer des applications web qui facilite vos processus de travail.</p>
+  <p>Notre web est ouvert, transparent, inclusif. Plein de goût !</p>"
+  previous: humainement
+  next: transition
 
 - title: transition
   id: transition
-  description : "<p>l'assembleuse est un collectif protéiforme de professionnels du 
-  numérique sensibilisés à des approches design, de recherche, sociologique.</p>
-  <p>Bref, on sait parler aux ordinateurs, mais on s'intéresse surtout aux humains.</p>"
+  description : "<p>Par \"transition\", nous englobons les organisations et projets 
+  qui prennent soin du bien commun, des communs, d'une vision sociale, 
+  écologique et solidaire de l'économie, que ces projets soient d'initiative publique ou privée.</p>
+  <p>Du moment que ça laisse la planète dans un meilleur état qu'en entrant, on prend.</p>"
+  previous: numeriquement
