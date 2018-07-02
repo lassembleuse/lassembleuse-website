@@ -2,9 +2,9 @@
 title: L'assembleuse
 subtitle: Outiller la transition
 email: bonjour@lassembleuse.fr
-description: L'assembleuse, l'agence d'accompagnement numérique et coopératif des projets de la transition
-url: "https://lassembleuse.netlify.com/" # the base hostname & protocol for your site
-# url: "https://www.lassembleuse.fr" # the base hostname & protocol for your site
+description: L'assembleuse, agence d'accompagnement numérique et coopératif des projets de la transition
+# url: "https://lassembleuse.netlify.com/" # the base hostname & protocol for your site
+url: "https://www.lassembleuse.fr" # the base hostname & protocol for your site
 
 # Social settings ------------------------------------
 github_username: lassembleuse
