@@ -1,9 +1,12 @@
 //=require vendor/vue
+//=require vendor/smoothscroll.min
 //=require assembleuse/baseline
 
 document.addEventListener('DOMContentLoaded', function () {
 
   console.log("hello sweetie !");
+
+  var scroll = new SmoothScroll('a[href*="#"]');
 
   // NAVBAR ==========================================================
   // Get all "navbar-burger" elements

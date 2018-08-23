@@ -7,13 +7,26 @@
 
 .is-huge
   font-size: 4rem
+  &:not(:last-child)
+    margin-bottom: 3.5rem
+
++tablet
+  .is-huge
+    font-size: 8rem
+  .subtitle
+    font-size: 1.6rem
 
 +desktop
   .is-huge
-    font-size: 9rem
+    font-size: 12rem
+  .subtitle
+    font-size: 2rem
+
 
 // index-page
 .is-index-page
+  .card
+    height: 100%
   .card-header-title
     text-transform: uppercase
   .subtitle
