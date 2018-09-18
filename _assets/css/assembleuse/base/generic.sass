@@ -1,0 +1,21 @@
+@keyframes fadeAppear
+  from
+    opacity: 0
+  to
+    opacity: 1
+
+body
+  animation-duration: 3s
+  animation-fill-mode: both
+  animation-name: fadeAppear
+
+.is-index-page
+  .subtitle
+    font-weight: bold
+    a
+      transition: all 0.5s ease
+      text-decoration: none
+      &.is-active, &:hover, a:active
+        background-color: $secondary
+        color: $light
+        text-decoration: none

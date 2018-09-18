@@ -1,19 +1,29 @@
 // 2. Set your own initial variables
 // Update blue
 $blue: #086788;
+$white: #f4f5f4;
 // Add pink and its invert
 $orange-deep: #ef451a;
 $orange-deep-invert: findColorInvert($orange-deep);
+
 // Add a serif family
 $family-sans-serif-bis: "Montserrat", sans-serif !default;
 $family-brand: "Exceptional-Regular", "Fregat", sans-serif;
 
 $family-primary: $family-sans-serif-bis;
 
+// container width
+$fullhd-enabled: false;
+
+// radius
+$radius-small: 0px;
+$radius: 0px;
+$radius-large: 0px;
+
 // 3. Set the derived variables
-// Use the new pink as the primary color
 $primary: $orange-deep;
 $primary-invert: $orange-deep-invert;
+$primary-dark: darken($primary, 15);
 
 // 4. Setup your Custom Colors
 $linkedin: #0077b5;
@@ -24,6 +34,9 @@ $github: #333;
 $github-invert: findColorInvert($github);
 $secondary: #07a0c3;
 $secondary-invert: #fff;
+$secondary-dark: darken($secondary, 15);
+$background: #f4f5f4;
+
 // $secondary-invert: findColorInvert($secondary);
 
 // 5. Add new color variables to the color map.
@@ -32,6 +45,8 @@ $addColors: (
   "twitter":($twitter, $twitter-invert),
   "linkedin": ($linkedin, $linkedin-invert),
   "github": ($github, $github-invert),
-  "secondary": ($secondary, $secondary-invert)
+  "secondary": ($secondary, $secondary-invert),
+  "primary-invert": (transparent, $primary),
+  "background": ($background, $background),
 );
 $colors: map-merge($colors, $addColors);

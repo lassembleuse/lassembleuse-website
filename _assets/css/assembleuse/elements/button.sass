@@ -1,0 +1,17 @@
+.button
+  box-shadow: 1px 1px 0 $button-border-color, 2px 2px 0 $button-border-color,3px 3px 0 $button-border-color,4px 4px 0 $button-border-color,5px 5px 0 $button-border-color
+  transition: all 0.1s linear
+  &:active, &.is-active
+    box-shadow: 0px 0px 0 $button-border-color, 0px 0px 0 $button-border-color, 0px 0px 0 $button-border-color
+    transform: translate3d(3px,3px,3px)
+  &.is-primary
+    box-shadow: 1px 1px 0 $primary-dark, 2px 2px 0 $primary-dark,3px 3px 0 $primary-dark,4px 4px 0 $primary-dark,5px 5px 0 $primary-dark
+    &:active, &.is-active
+      box-shadow: 0px 0px 0 $primary-dark, 0px 0px 0 $primary-dark, 0px 0px 0 $primary-dark
+  &.is-secondary
+    box-shadow: 1px 1px 0 $secondary-dark, 2px 2px 0 $secondary-dark,3px 3px 0 $secondary-dark,4px 4px 0 $secondary-dark,5px 5px 0 $secondary-dark
+    &:active, &.is-active
+      box-shadow: 0px 0px 0 $secondary-dark, 0px 0px 0 $secondary-dark, 0px 0px 0 $secondary-dark
+.buttons
+  .button
+    margin-bottom: 1rem

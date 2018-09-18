@@ -7,18 +7,16 @@
 
 - title: outiller
   id: outil
-  description : "<p>L'assembleuse ne fait pas tant des sites internets qu'elle ne créé 
-  des outils et des services web. 
-  Nos réalisations s'adressent à des vrais gens et les aident à résoudrent un problème.</p>
+  description : "<p>L'assembleuse créé des outils et des services en s'appuyant sur les technologies web. 
+  Nous ne cherchons pas tant à faire de jolis sites qu'à combler des besoins.</p>
   <p>Notre crédo, c'est de rendre celles et ceux qui utilisent nos services plus autonomes, en somme.</p>"
   previous: agence
   next: humainement
 
 - title: humainement
   id: humainement
-  description : "<p>Parfois (souvent), le problème n'est pas technique, ou pas que.
-  Avant toute chose, nous vous aidons à identifier des besoins, nous facilitons la réflexion 
-  de votre organisation, nous établissons avec vous un diagnostic.</p>
+  description : "<p>Parfois, le problème n'est pas technique, ou pas que.
+  Avant toute chose, nous vous aidons à identifier des points de blocage et établissons avec vous un diagnostic.</p>
   <p>Ensuite, nous vous proposons des pistes de solution, et celles-ci ne seront pas forcément numériques.</p>"
   previous: outil
   next: numeriquement
@@ -34,8 +32,7 @@
 
 - title: transition
   id: transition
-  description : "<p>Par \"transition\", nous englobons les organisations et projets 
-  qui prennent soin du bien commun, des communs, d'une vision sociale, 
-  écologique et solidaire de l'économie, que ces projets soient d'initiative publique ou privée.</p>
-  <p>Du moment que ça laisse la planète dans un meilleur état qu'en entrant, on prend.</p>"
+  description : "<p>Nous nous adressons aux organisations et projets, publics ou privés, qui prennent soin du vivant, 
+  s'attachent aux communs et à une vision sociale, écologique et solidaire de l'économie.</p>
+  <p>Nous faisons en sorte de ne pas laisser la planète dans un pire état que nous l'avons trouvée en entrant.</p>"
   previous: numeriquement

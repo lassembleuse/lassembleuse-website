@@ -1,20 +1,28 @@
-<footer class="footer">
+<footer class="footer is-primary">
   <div class="container">
     <div class="columns">
       <div class="column is-one-third">
         <ul class="contact-list">
           <li>
-              <p>{{ site.description | escape }}</p>
+            <p>{{ site.description | escape }}</p>
           </li>
-          {% if site.email %}
-          <li>
-            <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-          </li>
-          {% endif %}
         </ul>
       </div>
       <div class="column is-one-third is-offset-one-third has-text-right-desktop">
         <ul class="social-media-list">
+          <li>
+            <strong>L'assembleuse</strong><br>
+            Dinan - Rennes - Saint-Malo
+          </li>
+          {% if site.email %}
+          <li>
+            <a href="mailto:{{ site.email }}">
+              <span class="icon is-small">
+                <i class="far fa-envelope fa-lg"></i>
+              </span>
+              {{ site.email }}</a>
+          </li>
+          {% endif %}
           {% if site.github_username %}
           <li>
             {% include icon-github.html username=site.github_username %}
@@ -27,5 +35,50 @@
         </ul>
       </div>
     </div>
+    <!-- <hr> -->
+    <div class="columns">
+      <div class="column is-one-third">
+        <ul class="contact-list">
+          <li>
+            <a href="{{ "" | absolute_url }}">
+              Accueil
+            </a>
+          </li>
+          <li>
+            <a href="/philosophie">
+              Philosophie
+            </a>
+          </li>
+          <li>
+            <a href="/savoir-faire">
+              Savoir-faire
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="column is-one-third is-offset-one-third has-text-right-desktop">
+        <ul class="social-media-list">
+          <li>
+            <a href="/projets">
+              Projets
+            </a>
+          </li>
+          <li>
+            <a href="/collectif">
+              Collectif
+            </a>
+          </li>
+          <li>
+            <a href="{{ "contact" | absolute_url }}">
+              Contact
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="section">
+        <p class="">Sauf mention contraire, les textes sont en <a href="">creative commons by-sa</a></p>
+      </div>
   </div>
+
 </footer>

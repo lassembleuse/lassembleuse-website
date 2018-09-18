@@ -1,0 +1,74 @@
+---
+layout: default
+title: Nous contacter
+permalink: /contact
+---
+
+<div class="container is-vertical-p9">
+  <div class="columns">
+    <div class="column is-half">
+      <section class="section">
+        <p>L'assembleuse n'en est qu'à ses débuts. Très bientôt, vous trouverez ici plus d'infos sur nos propositions,
+          nos façons de faire...</p>
+        <br>
+        <p>D'ailleurs, on compte aussi vous faire participer à la définition de nos activités ! </p>
+        <br>
+        <p>Restez à l'écoute !</p>
+
+      </section>
+    </div>
+    <div class="column is-half">
+      <section class="section has-background-white-ter">
+        <div class="">
+          <h2 class="title">
+            En savoir plus
+          </h2>
+          <p class="content">
+            Vous souhaitez prendre ou garder contact avec l'assembleuse ? Laissez-nous votre email et on reviendra vers
+            vous !
+          </p>
+
+          <div class="content">
+            <form name="know-more" method="POST" netlify-honeypot="bot-field" action="/merci" netlify>
+
+              <p class="is-hidden">
+                <label>Name <input name="bot-field" /></label>
+              </p>
+
+              <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                  <input class="input" type="text" name="email" placeholder="Text input">
+                </div>
+              </div>
+
+              <div class="field">
+                <label class="label">Pourquoi prendre contact ?</label>
+                <div class="control">
+                  <div class="select">
+                    <select name="why[]">
+                      <option>Je veux être tenu.e informé.e de votre actualité</option>
+                      <option>J'aimerais en savoir plus sur l'assembleuse</option>
+                      <option>J'ai une mission pour l'assembleuse</option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+              <div class="field">
+                <div class="control">
+                  <label class="checkbox">
+                    <input type="checkbox" name="consent">
+                    J'accepte que mes données soient utilisées par l'assembleuse, pour garder contact. Et uniquement
+                    pour ça.
+                  </label>
+                </div>
+              </div>
+              <button class="button" type=”submit”>Envoyer</button>
+            </form>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </div>
+</div>
