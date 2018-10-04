@@ -1,20 +1,13 @@
-.navbar-burger
-  span
-    height: 2px
-
-.navbar-brand
-  font-size: 1.8rem
-
-.navbar-menu
-  a.navbar-item
+.link-item
+  a
     position: relative
     &::after
       position: absolute
-      top: 75%
+      top: 100%
       left: 0
       width: 100%
       height: 1px
-      background-color: $primary
+      background: #fff
       content: ''
       opacity: 0
       -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s
@@ -23,9 +16,11 @@
       -webkit-transform: translateY(-10px)
       -moz-transform: translateY(-10px)
       transform: translateY(-10px)
-    &:hover::after, &:active::after, &.active::after
-      height: 4px
+    &:hover::after
+      height: 1px
       opacity: 1
       -webkit-transform: translateY(0px)
       -moz-transform: translateY(0px)
       transform: translateY(0px)
+  .icon
+    vertical-align: middle

@@ -1,25 +1,16 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
-date:   2017-06-01 16:26:52 +0200
-categories: jekyll update
+title:  "Refonte de low tech magazine"
+categories: lowtech
+author: Claire
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+A la rentrée 2018, Low Tech magazine a donné un très chouette exemple de ce qu'était un site radicalement soucieux de son empreinte écologique en sortant une refonte de son site... fonctionnant à l'énergie solaire.
 
-Jekyll also offers powerful support for code snippets:
+Pour ça, il se sont penchés aussi bien sur le hardware que sur le software. Pas grand chose à dire côté hardware (ce n'est pas notre domaine de compétences majeures), mais l'explication de ce qui a été mis en oeuvre côté software est riche d'enseignement.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
+Pour commencer, sans surprise, l'équipe est passée aux générateurs de sites statiques ([Pelican](https://blog.getpelican.com/), en l'occurrence, générateur écrit en python).
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
+Une astuce que je trouve assez chouette est celle trouvée pour alléger la taille des images, l'une des source principale de poids des sites. S'inspirant de vieux modes d'impression économiques, Low Tech Mag a pris le parti (aussi pour des raisons esthétiques) de partir sur du [half-tone](https://fr.wikipedia.org/wiki/Halftoning) numérique.
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Ensuite, viennent d'innombrables améliorations de configuration (du choix du système d'exploitation à la configuration d)u serveur web), avec des partis pris clairement expliqués.

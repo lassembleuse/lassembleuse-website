@@ -10,25 +10,28 @@
       </div>
       <div class="column is-one-third is-offset-one-third has-text-right-desktop">
         <ul class="social-media-list">
+          <!-- <li class=brand-title>
+            L'assembleuse
+          </li> -->
           <li>
-            <strong>L'assembleuse</strong><br>
             Dinan - Rennes - Saint-Malo
           </li>
+          <br>
           {% if site.email %}
-          <li>
+          <li class="link-item">
             <a href="mailto:{{ site.email }}">
               <span class="icon is-small">
-                <i class="far fa-envelope fa-lg"></i>
+                <i class="far fa-envelope"></i>
               </span>
               {{ site.email }}</a>
           </li>
           {% endif %}
           {% if site.github_username %}
-          <li>
+          <li class="link-item">
             {% include icon-github.html username=site.github_username %}
-          </li>
+          </li class="link-item">
           {% endif %} {% if site.twitter_username %}
-          <li>
+          <li class="link-item">
             {% include icon-twitter.html username=site.twitter_username %}
           </li>
           {% endif %}
@@ -39,17 +42,17 @@
     <div class="columns">
       <div class="column is-one-third">
         <ul class="contact-list">
-          <li>
+          <li class="link-item">
             <a href="{{ "" | absolute_url }}">
               Accueil
             </a>
           </li>
-          <li>
+          <li class="link-item">
             <a href="/philosophie">
               Philosophie
             </a>
           </li>
-          <li>
+          <li class="link-item">
             <a href="/savoir-faire">
               Savoir-faire
             </a>
@@ -58,17 +61,17 @@
       </div>
       <div class="column is-one-third is-offset-one-third has-text-right-desktop">
         <ul class="social-media-list">
-          <li>
+          <li class="link-item">
             <a href="/projets">
               Projets
             </a>
           </li>
-          <li>
+          <li class="link-item">
             <a href="/collectif">
               Collectif
             </a>
           </li>
-          <li>
+          <li class="link-item">
             <a href="{{ "contact" | absolute_url }}">
               Contact
             </a>
@@ -76,8 +79,8 @@
         </ul>
       </div>
     </div>
-    <div class="section">
-        <p class="">Sauf mention contraire, les textes sont en <a href="">creative commons by-sa</a></p>
+    <div class="section has-text-centered">
+        <p class="link-item">Sauf mention contraire, les contenus de ce site sont sous licence <a href="https://creativecommons.org/licenses/by-nc-sa/3.0/fr/">Creative Commons BY-NC-SA</a></p>
       </div>
   </div>
 

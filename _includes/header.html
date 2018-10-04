@@ -14,7 +14,13 @@
     
       <div id="navbarExampleTransparentExample" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item" href="/philosophie">
+          {% assign entries = site.pages | where:"top_menu","true" | sort: "position" %}
+          {% for entry in entries %}
+            <a class="navbar-item {% if page.url contains entry.url %}active{% endif %}" 
+            href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
+          {% endfor %}
+          
+          <!-- <a class="navbar-item" href="/philosophie">
             Philosophie
           </a>
           <a class="navbar-item" href="/savoir-faire">
@@ -28,7 +34,7 @@
           </a>
           <a class="navbar-item" href="/contact">
             Contact
-          </a>
+          </a> -->
         </div>
       </div>
     </div>
