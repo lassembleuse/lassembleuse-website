@@ -1,0 +1,19 @@
+---
+layout: project
+title: Projets
+permalink: /projets-futurs
+---
+
+<p class="content">Types de projet que nous aurions grand plaisir à mener avec vous :</p>
+<ul>
+
+  {% for project in site.data.future_projects %}
+  <li class="card future-project-card">
+      <div class="card-content">{{project.description}}
+        </div>
+      </li>
+  {% endfor %}
+</ul>
+
+
+{% include button.html link="/contact" title="Travailler ensemble" %}

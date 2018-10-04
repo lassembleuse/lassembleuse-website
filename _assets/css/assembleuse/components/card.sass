@@ -1,7 +1,17 @@
-.card.keyword-card
+.card
   background-color: #fff
-  height: 100%
-  border-left: 0.75rem solid $primary
-  .card-header-title
-    text-transform: uppercase
-    padding: 0 0 0.75rem
+
+  &.keyword-card 
+    height: 100%
+    border-left: 0.75rem solid $primary
+    .card-header-title
+      text-transform: uppercase
+      padding: 0 0 0.75rem
+  &.project-card
+    height: 100%
+    // margin-bottom: 2.5rem
+  &.future-project-card
+    border-left: 8px solid $primary
+    margin-bottom: 1.5rem
+    &:last-child
+      font-weight: bold

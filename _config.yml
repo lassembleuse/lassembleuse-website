@@ -36,3 +36,12 @@ locale: fr
 # Includes ----------------------------------------------
 include:
   - _pages
+
+# Collections -------------------------------------------
+
+collections:
+  projects:
+    output: true
+    permalink: /projets-realises/:path/
+    title: Projets
+    layout: projects

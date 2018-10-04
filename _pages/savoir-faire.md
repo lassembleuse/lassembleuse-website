@@ -19,7 +19,7 @@ L'assembleuse vous accompagne sur des projets et besoins variés :
 - échanges et conseil sur ce que le numérique peut apporter à votre activité
 - accompagnement sur les outils (numériques et non numériques) et les méthodes de la coopération
 
-{% include button.html link="/projets" title="Voir nos projets et envies" %}
+{% include button.html link="/projets-realises" title="Voir nos projets et envies" %}
 
 ### Avec quels outils
 

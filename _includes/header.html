@@ -16,7 +16,7 @@
         <div class="navbar-end">
           {% assign entries = site.pages | where:"top_menu","true" | sort: "position" %}
           {% for entry in entries %}
-            <a class="navbar-item {% if page.url contains entry.url %}active{% endif %}" 
+            <a class="navbar-item {% if page.title contains entry.title %}active{% endif %}" 
             href="{{ site.baseurl }}{{ entry.url }}">{{ entry.title }}</a>
           {% endfor %}
           

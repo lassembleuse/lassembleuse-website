@@ -39,6 +39,13 @@ $background: #f4f5f4;
 
 // $secondary-invert: findColorInvert($secondary);
 
+
+// tabs
+$tabs-boxed-link-active-background-color: #fff !default;
+$tabs-boxed-link-active-border-color: transparent;
+$tabs-boxed-link-active-border-bottom-color: $secondary;
+
+
 // 5. Add new color variables to the color map.
 @import "bulma/utilities/derived-variables";
 $addColors: (

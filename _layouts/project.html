@@ -1,0 +1,19 @@
+---
+layout: default
+---
+<div class="container container-sm">
+    <article class="section">
+
+      <header class="page-header">
+        <h1 class="title is-2">{{ page.title | escape }}</h1>
+      </header>
+
+      <div class="tabs is-boxed is-fullwidth">
+          <ul>
+            <li class="{% if page.url contains 'projets-realises' %}is-active{% endif %}"><a href="{{ site.baseurl }}/projets-realises">réalisés</a></li>
+            <li class="{% if page.url contains 'projets-futurs' %}is-active{% endif %}"><a href="{{ site.baseurl }}/projets-futurs">futurs</a></li>
+          </ul>
+        </div>
+        {{ content }}
+    </article>
+  </div>
