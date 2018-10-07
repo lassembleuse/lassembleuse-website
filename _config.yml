@@ -44,4 +44,12 @@ collections:
     output: true
     permalink: /projets-realises/:path/
     title: Projets
-    layout: projects
+    layout: project
+
+defaults:
+  - 
+    scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project"

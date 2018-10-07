@@ -6,14 +6,55 @@ layout: default
 
       <header class="page-header">
         <h1 class="title is-2">{{ page.title | escape }}</h1>
+        <p class="subtitle is-4">{{ page.subtitle | escape }}</p>
       </header>
 
-      <div class="tabs is-boxed is-fullwidth">
-          <ul>
-            <li class="{% if page.url contains 'projets-realises' %}is-active{% endif %}"><a href="{{ site.baseurl }}/projets-realises">réalisés</a></li>
-            <li class="{% if page.url contains 'projets-futurs' %}is-active{% endif %}"><a href="{{ site.baseurl }}/projets-futurs">futurs</a></li>
-          </ul>
-        </div>
+      <img src="{{ page.image | absolute_url }}" alt="Image du projet {{page.title}}">
+
+      <div class="content page-content">
         {{ content }}
+      </div>
+
+      <div class="content page-content">
+        <h2 class="title">Fiche technique</h2>
+        <ul>
+          <li><span class="has-text-weight-bold">Technologies : </span>{{ page.technologies | join: ', ' }}</li>
+          <li><span class="has-text-weight-bold">Livraison : </span>{{page.month_released}} {{page.year_released}}</li>
+          {% if page.links %}
+          <li><span class="has-text-weight-bold">Ressources complémentaires : </span>
+            <ul>
+              {% for link in page.links %}
+                <li><a href="{{link.url}}">{{link.title}}</a></li>
+              {% endfor %}
+            </ul>
+          </li>
+          {% endif %}
+          </li>
+        </ul>
+        <div class="buttons is-centered">
+          <a class="button is-primary" href="{{page.website_url}}" target="_blank">Voir {{page.title}}</a>
+        </div>
+      </div>
+
+      {% if page.team %}
+      <div class="content">
+        <h2 class="title">Equipe</h2>
+        <div class="columns is-multiline">
+          {% for teammate in page.team %}
+            <div class="column is-half">
+              <a href="{{teammate.url}}">
+                <div class="card">
+                  <div class="card-content">
+                    <p class="title is-5">{{teammate.name}}</p>
+                    <p>{{ teammate.tasks }}</p>
+                  </div>
+                </div>
+              </a>
+            </div>
+          {% endfor %}
+        </div>
+        {% endif %}
+      </div>
+
     </article>
   </div>

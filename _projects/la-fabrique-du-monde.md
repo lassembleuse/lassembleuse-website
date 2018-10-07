@@ -1,7 +1,6 @@
 ---
 title: La fabrique du monde
 subtitle: Boite à outil dédiée à la mobilité
-category: Freelance
 tasks:
   - intégration
   - développement
@@ -13,7 +12,14 @@ month_released: Juin
 date: 01/06/2017
 website_url: https://www.lafabriquedumonde.fr/
 image: assets/img/projects/FabriqueMonde01.png
+team:
+  - name: Phi²
+    tasks: UX, graphisme
+    url: http://phicarre.fr/
+  - name: Claire Zuliani
+    tasks: gestion de projet, intégration, développement, déploiement
+    url: https://www.clairezuliani.com/
 ---
-Mirador, chouette association spinalienne spécialisée dans la résolution de conflits, souhaitait créer une boîte à outil dématérialisée de ressources dédiées aux projets de mobilité.
+Mirador, association spinalienne spécialisée dans la résolution de conflits, souhaitait créer une boîte à outil dématérialisée de ressources dédiées aux projets de mobilité.
 
-C'était ma première collaboration avec Gabriel Loisy ([Phi²](http://phicarre.fr/)), qui a brillament pris en charge toute la partie design : et j'espère bien que ce ne sera pas la dernière.
+La Fabrique du Monde permet de proposer, articuler et visualiser des fiches outils (méthodologie, documents...) aidant à la construction des projets de mobilité nationaux, européens ou internationaux.
