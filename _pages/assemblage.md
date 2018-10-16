@@ -35,9 +35,11 @@ Vosgien qui offre ses services et son oeil exercé aux entreprises et aux partic
 Ses savoir-faire : photographie, graphisme et développement wordpress.
 [phicarre.fr](http://phicarre.fr/)
 
-#### DTC innovation ?
+#### Maiwann
 
-#### Maïtané ?
+Maiwann, depuis sa base toulousaine, contribue à de nombreux projets libres, éthiques et inclusifs, que ce soit pour les services de l'Etat ou pour des associations engagés comme Framasoft.
+Ses savoir-faire : recherche utilisateur, conception et design d'interface, UX design et ergonomie.
+[Maiwann](http://www.maiwann.net/)
 
 
 ## Réseaux et communautés
