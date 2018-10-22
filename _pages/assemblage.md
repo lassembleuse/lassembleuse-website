@@ -37,8 +37,8 @@ Ses savoir-faire : photographie, graphisme et développement wordpress.
 
 #### Maiwann
 
-Maiwann, depuis sa base toulousaine, contribue à de nombreux projets libres, éthiques et inclusifs, que ce soit pour les services de l'Etat ou pour des associations engagés comme Framasoft.
-Ses savoir-faire : recherche utilisateur, conception et design d'interface, UX design et ergonomie.
+Maiwann, depuis sa base toulousaine, contribue à de nombreux projets libres, éthiques et inclusifs, que ce soit pour les services de l’Etat ou pour des associations engagés comme Framasoft. 
+Ses savoir-faire : recherche utilisateur, conception, ergonomie et design d’interface.
 [Maiwann](http://www.maiwann.net/)
 
 
