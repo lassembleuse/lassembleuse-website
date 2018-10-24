@@ -15,7 +15,7 @@ position: 3
           <div class="card-image">
             <figure class="image">
               <a href="{{ site.baseurl }}{{ entry.url }}">
-                <img src="{{ entry.image | absolute_url}}" alt="Image du projet {{entry.title}}">
+                {% asset '{{ entry.image }}' alt="Capture d'écran du projet {{entry.title}}" %}
               </a>
             </figure>
           </div>

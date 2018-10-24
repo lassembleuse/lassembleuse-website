@@ -9,7 +9,7 @@ layout: default
         <p class="subtitle is-4">{{ page.subtitle | escape }}</p>
       </header>
 
-      <img src="{{ page.image | absolute_url }}" alt="Image du projet {{page.title}}">
+      {% asset '{{ page.image }}' alt="Capture d'écran du projet {{entry.title}}" %}
 
       <div class="content page-content">
         {{ content }}

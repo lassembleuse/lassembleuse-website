@@ -14,8 +14,8 @@ year_released: 2018
 month_released: Mars
 date: 15/03/2018
 website_url: https://www.ensemble-app.fr/
-image: assets/img/projects/ensemble01.png
-image_secondary: assets/img/projects/ensemble02.jpg
+image: ensemble01.png
+image_secondary: ensemble02.jpg
 links:
   - title: Reportage Vosges Télévision - "Un site qui rapproche", 6 février 2018
     url: https://www.vosgestelevision.tv/Journal/Journal-mardi-6-fevrier-Eli9e9120.html
@@ -38,7 +38,8 @@ Le support principal du projet est une application web permettant de rencontrer 
 
 ## Méthodologie
 
-![Photo de discussions autour de différentes alternatives pour une page, avec un groupe d'habitants]({{page.image_secondary | absolute_url}})
+![Photo de discussions autour de différentes alternatives pour une page, avec un groupe d'habitants]({% asset '{{ page.image_secondary }}' @path %}
+)
 
 L'une des particularités du projet est que l'application a été conçue au plus près des personnes auxquelles elle est destinée.
 

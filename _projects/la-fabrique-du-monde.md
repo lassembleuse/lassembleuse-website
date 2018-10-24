@@ -1,6 +1,6 @@
 ---
 title: La fabrique du monde
-subtitle: Boite à outil dédiée à la mobilité
+subtitle: Boite à outils dédiée à la mobilité
 tasks:
   - intégration
   - développement
@@ -11,7 +11,7 @@ year_released: 2017
 month_released: Juin
 date: 01/06/2017
 website_url: https://www.lafabriquedumonde.fr/
-image: assets/img/projects/FabriqueMonde01.png
+image: FabriqueMonde01.png
 team:
   - name: Phi²
     tasks: UX, graphisme

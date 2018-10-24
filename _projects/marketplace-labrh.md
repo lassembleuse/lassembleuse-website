@@ -14,7 +14,7 @@ year_released: 2018
 month_released: Janvier
 date: 03/01/2018
 website_url: https://marketplace.lab-rh.com/
-image: assets/img/projects/marketplace-labrh01.png
+image: marketplace-labrh01.png
 team:
   - name: Emilien Ah-Kiem
     tasks: développement back, déploiement
