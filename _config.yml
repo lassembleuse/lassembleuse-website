@@ -58,6 +58,14 @@ defaults:
 # Jekyl assets -------------------------------------------
 
 assets:
+  precompile: [
+    default-picture.jpg,
+    default-picture-sq.png,
+    exceptional-regular.woff2,
+    exceptional-regular.woff,
+    Montserrat-Regular.ttf,
+    Montserrat-Bold.ttf
+  ]
   sources:
     - assets/css
     - assets/fonts

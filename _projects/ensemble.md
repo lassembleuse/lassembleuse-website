@@ -14,7 +14,7 @@ year_released: 2018
 month_released: Mars
 date: 15/03/2018
 website_url: https://www.ensemble-app.fr/
-image: ensemble01.png
+image: ensemble01.jpg
 image_secondary: ensemble02.jpg
 links:
   - title: Reportage Vosges Télévision - "Un site qui rapproche", 6 février 2018
