@@ -2,7 +2,7 @@
 title: L'assembleuse
 subtitle: Outiller la transition
 email: bonjour@lassembleuse.fr
-description: L'assembleuse, agence d'accompagnement numérique et coopératif de projets de la transition
+description: L'assembleuse, une agence qui outille humainement et numériquement les initiatives de la transition.
 # url: "https://lassembleuse.netlify.com/" # the base hostname & protocol for your site
 url: "https://www.lassembleuse.fr" # the base hostname & protocol for your site
 
@@ -18,7 +18,9 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
+include:
+  - _pages
+  - _headers
 
 # Sass ------------------------------------------------
 
@@ -26,17 +28,11 @@ sass:
   sass_dir: _sass
   style: compressed
 
-
 # Locale ----------------------------------------------
 
 timezone: Europe/Paris
 encoding: utf-8
 locale: fr
-
-# Includes ----------------------------------------------
-include:
-  - _pages
-  - _headers
 
 # Collections -------------------------------------------
 
@@ -48,7 +44,7 @@ collections:
     layout: project
 
 defaults:
-  - 
+  -
     scope:
       path: ""
       type: "projects"
