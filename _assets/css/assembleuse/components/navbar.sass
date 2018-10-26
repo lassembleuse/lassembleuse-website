@@ -1,3 +1,5 @@
+$navbar-item-color: $primary
+  
 .navbar-burger
   span
     height: 2px
@@ -6,26 +8,72 @@
   font-size: 1.8rem
 
 .navbar-menu
+  position: fixed
+  right: 0
+  top: $navbar-height
+  display: block
+  overflow: auto
+  height: 100vh
+  width: 100%
+  transition: transform 350ms ease
+  transform: translateX(100%)
+  &.is-active
+    transform: translateX(0%)
   a.navbar-item
-    position: relative
-    &::after
-      position: absolute
-      top: 75%
-      left: 0
-      width: 100%
-      height: 1px
-      background-color: $primary
-      content: ''
-      opacity: 0
-      -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s
-      -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s
-      transition: height 0.3s, opacity 0.3s, transform 0.3s
-      -webkit-transform: translateY(-10px)
-      -moz-transform: translateY(-10px)
-      transform: translateY(-10px)
-    &:hover::after, &:active::after, &.active::after
-      height: 4px
-      opacity: 1
-      -webkit-transform: translateY(0px)
-      -moz-transform: translateY(0px)
-      transform: translateY(0px)
+      position: relative
+      color: $primary
+      &::after
+        position: absolute
+        top: 85%
+        left: 0.5rem
+        width: 50%
+        height: 1px
+        background-color: $primary
+        content: ''
+        opacity: 0
+        -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s
+        -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s
+        transition: height 0.3s, opacity 0.3s, transform 0.3s
+        -webkit-transform: translateY(-10px)
+        -moz-transform: translateY(-10px)
+        transform: translateY(-10px)
+      &:hover::after, &:active::after, &.active::after
+        height: 4px
+        opacity: 1
+        -webkit-transform: translateY(0px)
+        -moz-transform: translateY(0px)
+        transform: translateY(0px)
+  .navbar-item:hover, .navbar-item:active
+    color: $primary
+    background-color: $white
+
++desktop
+  .navbar-menu
+    position: static
+    display: flex
+    transform: translateX(0%)
+    height: 100%
+    width: auto
+    a.navbar-item
+      // position: relative
+      &::after
+        // position: absolute
+        top: 75%
+        left: 0
+        width: 100%
+      //   height: 1px
+      //   background-color: $primary
+      //   content: ''
+      //   opacity: 0
+      //   -webkit-transition: height 0.3s, opacity 0.3s, -webkit-transform 0.3s
+      //   -moz-transition: height 0.3s, opacity 0.3s, -moz-transform 0.3s
+      //   transition: height 0.3s, opacity 0.3s, transform 0.3s
+      //   -webkit-transform: translateY(-10px)
+      //   -moz-transform: translateY(-10px)
+      //   transform: translateY(-10px)
+      // &:hover::after, &:active::after, &.active::after
+      //   height: 4px
+      //   opacity: 1
+      //   -webkit-transform: translateY(0px)
+      //   -moz-transform: translateY(0px)
+      //   transform: translateY(0px)

@@ -5,14 +5,14 @@
         <a class="navbar-item" href="{{ "" | absolute_url }}">
           <span class="">{{ site.title }}</span>
         </a>
-        <div class="navbar-burger burger" data-target="navbarExampleTransparentExample">
+        <div class="navbar-burger burger" data-target="navbar-menu">
           <span></span>
           <span></span>
           <span></span>
         </div>
       </div>
     
-      <div id="navbarExampleTransparentExample" class="navbar-menu">
+      <div id="navbar-menu" class="navbar-menu">
         <div class="navbar-end">
           {% assign entries = site.pages | where:"top_menu","true" | sort: "position" %}
           {% for entry in entries %}
