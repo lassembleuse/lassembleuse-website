@@ -52,6 +52,8 @@ des plateformes collaboratives équitables et productrice de Communs
 - [Numéricoop](https://colibris-wiki.org/NumeriCoop/) : collectif des métiers du numérique de coopaname
 - [Képos](https://transition-ecologique.org/?s=k%C3%A8pos) :  collectif d'entreprises engagées pour la transition écologique et dispositif d'accompagnement pour les territoires et organisations qui souhaitent entamer une démarche de transition (Sud Lorraine).
 
+L'assembleuse fait partie de la coopérative [Coopaname](http://www.coopaname.coop/).
+
 <div class="highlighted">
 <p>Vous êtes développeur.se, designeur.se, chercheur.se, ou tout autre chose, vous vous retrouvez dans notre discours et souhaitez participer aux activités de l'agence ? Parlons-en !</p>
 {% include button.html link="/contact" title="Se rencontrer" %}
