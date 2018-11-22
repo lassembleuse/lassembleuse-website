@@ -21,6 +21,7 @@ exclude:
 include:
   - _pages
   - _headers
+excerpt_separator: <!--more-->
 
 # Sass ------------------------------------------------
 

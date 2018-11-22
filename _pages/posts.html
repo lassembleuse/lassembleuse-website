@@ -1,0 +1,45 @@
+---
+layout: default
+title: Carnet
+permalink: /carnet
+top_menu: true
+position: 5
+---
+
+<div class="container container-sm">
+  <article class="section">
+
+    <header class="page-header">
+      <h1 class="title is-2">{{ page.title | escape }}</h1>
+    </header>
+
+    <ul>
+      {% for post in site.posts %}
+      <li class="card post-card">
+        <div class="card-content">
+          <h4 class="title is-4">
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h4>
+          {{ post.excerpt }}
+        </div>
+
+        <footer class="card-footer">
+          <p class="card-footer-item">
+            <span>{{ post.date | localize: "%d %b %y"}}</span>
+          </p>
+          <p class="card-footer-item">
+            <span>
+              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">Lire la suite</a>
+            </span>
+          </p>
+        </footer>
+      </li>
+      {% endfor %}
+    </ul>
+    
+  </article>
+</div>
+
+
+
+
