@@ -41,6 +41,11 @@ Maiwann, depuis sa base toulousaine, contribue à de nombreux projets libres, é
 Ses savoir-faire : recherche utilisateur, conception, ergonomie et design d’interface.
 [Maiwann](http://www.maiwann.net/)
 
+#### David Bruant
+
+Le bordelais David Bruant, très calé en pratiques collaboratives, en javascript et en accompagnement d'équipes (scrum, lean startup et tutti quanti) sait avec brio faire parler les données et faciliter les projets. Il est aussi membre de [DTC innovation](https://dtc-innovation.org/).
+
+[David Bruant](https://twitter.com/DavidBruant)
 
 ## Réseaux et communautés
 
