@@ -33,12 +33,14 @@ Au gré des besoins, l'agence prend la forme d'un regroupement d'individus ou d'
 
 Vosgien qui offre ses services et son oeil exercé aux entreprises et aux particuliers.
 Ses savoir-faire : photographie, graphisme et développement wordpress.
+
 [phicarre.fr](http://phicarre.fr/)
 
 #### Maiwann
 
 Maiwann, depuis sa base toulousaine, contribue à de nombreux projets libres, éthiques et inclusifs, que ce soit pour les services de l’Etat ou pour des associations engagées comme Framasoft.
 Ses savoir-faire : recherche utilisateur, conception, ergonomie et design d’interface.
+
 [Maiwann](http://www.maiwann.net/)
 
 #### David Bruant
@@ -46,6 +48,13 @@ Ses savoir-faire : recherche utilisateur, conception, ergonomie et design d’in
 Le bordelais David Bruant, très calé en pratiques collaboratives, en javascript et en accompagnement d'équipes (scrum, lean startup et tutti quanti) sait avec brio faire parler les données et faciliter les projets. Il est aussi membre de [DTC innovation](https://dtc-innovation.org/).
 
 [David Bruant](https://twitter.com/DavidBruant)
+
+#### Pierre Allée
+
+Touche à tout costarmoricain, Pierre est à l'origine de [Kreizenn Dafar](http://www.la-matrice.org/tag/kreizenn-dafar/), a coordonné les [Fabriques du Ponant](http://www.lesfabriquesduponant.net/) à Brest et animé [Digital Saint Malo](https://digital-saint-malo.com/). Bref, un incontournable quand on parle tiers-lieux, numérique ou accompagnement dans le coin.
+
+
+[Pierre Allée](https://twitter.com/PierreAllee)
 
 ## Réseaux et communautés
 
