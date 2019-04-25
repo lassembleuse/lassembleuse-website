@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Apéro numérique à Dinan le 16 mai"
-categories: bretagne
+categories: [bretagne, apero, numerique]
 author: Claire
 ---
 
