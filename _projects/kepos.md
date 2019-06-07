@@ -15,7 +15,7 @@ year_released: 2019
 month_released: Mars
 date: 01/03/2019
 website_url: https://www.kepos.fr/
-image: kepos01o.png
+image: kepos01.png
 links:
   - title: Interview de Claire de l'assembleuse abordant les parti pris du site
     url: https://transition-ecologique.org/2019/06/04/numerique-sobriete-assembleuse/
