@@ -35,4 +35,4 @@ team:
 
 Le Lab RH, écosystème de 400 startups et 40 grandes entreprises spécialisées dans l'innovation en ressources humaines, souhaitait créer pour ses adhérents une place de marché de services non monétaire, basé sur un système de gains et de dépenses de points en offres et en demandes.
 
-Une équipe de 5 personnes, rassemblée autour du réseau d'indépendants du web [Happy Dev](http://happy-dev.fr/), s'est réunie autour de la construction de cette plateforme qui permet, en communiquant avec un CRM, d'inviter automatiquement les membres pertinents de la communauté LabRH.
+Une équipe de 5 personnes, rassemblée autour du réseau d'indépendants du web [Happy Dev](http://happy-dev.fr/), s'est réunie pour la construction de cette plateforme qui permet, en communiquant avec un CRM, d'inviter automatiquement les membres pertinents de la communauté LabRH.
