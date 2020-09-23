@@ -17,6 +17,9 @@ website_url: https://www.trajectoires.pro/
 image: trajectoirespro01.jpg
 image_secondary: trajectoirespro02.jpg
 team:
+  - name: Pierre De La Croix
+    tasks: développement
+    url: https://happy-dev.fr
   - name: Patrick Lambret
     tasks: gestion de projet
     url: https://happy-dev.fr
